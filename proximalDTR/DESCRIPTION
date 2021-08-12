@@ -1,0 +1,18 @@
+Package: proximalDTR
+Type: Package
+Title: A proximal approach for DTR estimation
+Version: 0.6.1
+Author: Wenzhuo Zhou, Ruoqing Zhu, Annie Qu
+Maintainer: Ruoqing Zhu <teazrq@gmail.com>
+Description: Estimating DTR in infinite horizon
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.1.0
+NeedsCompilation: yes
+Repository: CRAN
+Imports: Rcpp (>= 0.12.12), survival, dr, pracma, plot3D, rgl, MASS,
+        caret, SVMW
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: GNU make
+Packaged: 2021-05-11 23:26:26 UTC; vincentsmac
